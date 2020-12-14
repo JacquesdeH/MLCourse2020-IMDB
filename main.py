@@ -8,7 +8,7 @@ import datetime
 from Instructor import Instructor
 
 
-RANDOM_SEED = 7
+RANDOM_SEED = 1234
 
 # data related
 VALIDATION_PARTITION = 0.1
@@ -65,10 +65,10 @@ random.seed(RANDOM_SEED)
 np.random.seed(RANDOM_SEED)
 
 if __name__ == '__main__':
-    # timestamp = "20201129-152602-RoBERTa-Cumulbatch-Alldata-Warmup"
+    # timestamp = "20201214-215325"
     timestamp = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
     model_name = timestamp + '-' + "RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch"
     instructor = Instructor(model_name, args)
-    # instructor.trainModel(use_all=True)
+    instructor.trainModel(use_all=True)
     instructor.testModel(load_pretrain=True, epoch=args.epoch)
 
