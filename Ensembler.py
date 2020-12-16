@@ -17,7 +17,7 @@ submissions = {
     "submission-20201214-215325-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.63,
     "submission-20201215-082241-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.50,
     "submission-20201215-110700-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.41,
-    "submission-20201216-000133-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.24,
+    # "submission-20201216-000133-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.24,
     "submission-20201216-142158-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.45,
     "submission-20201216-165851-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.51,
     "submission-20201216-220908-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.37,
