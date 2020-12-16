@@ -18,6 +18,7 @@ submissions = {
     "submission-20201215-082241-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.50,
     "submission-20201215-110700-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.41,
     "submission-20201216-000133-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.24,
+    "submission-20201216-142158-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.45,
 }
 
 emotions = ["positive", "negative"]
