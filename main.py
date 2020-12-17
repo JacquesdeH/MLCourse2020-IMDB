@@ -8,7 +8,7 @@ import datetime
 from Instructor import Instructor
 
 
-RANDOM_SEED = 314
+RANDOM_SEED = 511
 
 # data related
 VALIDATION_PARTITION = 0.1
