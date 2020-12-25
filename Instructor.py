@@ -120,7 +120,7 @@ class Instructor:
 
             input_ids, mask_attentions, labels = input_ids.to(self.args.DEVICE), mask_attentions.to(
                 self.args.DEVICE), labels.to(self.args.DEVICE)
-            loss, outputs = self.model(input_ids, attention_mask=mask_attentions, labels=labels)
+            loss, outputs = self.model(input_ids, attention_mask=mask_attentions, labels=labels).values()
 
             loss_each = loss / self.args.cumul_batch
             loss_each.backward()
@@ -185,7 +185,7 @@ class Instructor:
             input_ids, mask_attentions, original_ids = input_ids.to(self.args.DEVICE), mask_attentions.to(
                 self.args.DEVICE), original_ids.to(self.args.DEVICE)
             with torch.no_grad():
-                outputs, = self.model(input_ids, attention_mask=mask_attentions)
+                outputs, = self.model(input_ids, attention_mask=mask_attentions).values()
                 pred = outputs.max(dim=1)[1].unsqueeze(dim=1)
                 for id_, ans in zip(original_ids, pred):
                     id2ans[id_.item()] = ans.item()
