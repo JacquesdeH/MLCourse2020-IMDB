@@ -19,10 +19,10 @@ NUM_WORKERS = 4
 LR = 4e-5
 EPS = 1e-8
 EPOCH = 3
-BATCH_SIZE = 8
+BATCH_SIZE = 2
 DISP_PERIOD = 50
 MAX_NORM = 1.0
-CUMUL_BATCH = 4
+CUMUL_BATCH = 16
 WARMUP_RATE = 0.1
 
 # paths
@@ -32,7 +32,7 @@ CKPT_PATH = os.path.join("ckpt")
 LOG_PATH = os.path.join("log")
 
 # use pretrained model
-MODEL_PRETRAINED = 'roberta-base'
+MODEL_PRETRAINED = 'roberta-large'
 
 
 parser = argparse.ArgumentParser()
