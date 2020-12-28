@@ -13,15 +13,23 @@ ENSEMBLE_PATH = os.path.join("data", "ensemble")
 DST_SUBMISSION = os.path.join(ENSEMBLE_PATH, "submission.csv")
 
 submissions = {
-    "submission-20201205-194227-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.50,
-    "submission-20201214-215325-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.63,
-    "submission-20201215-082241-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.50,
-    "submission-20201215-110700-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.41,
+    # "submission-20201205-194227-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.50,
+    # "submission-20201214-215325-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.63,
+    # "submission-20201215-082241-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.50,
+    # "submission-20201215-110700-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.41,
     # "submission-20201216-000133-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.24,
-    "submission-20201216-142158-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.45,
-    "submission-20201216-165851-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.51,
+    # "submission-20201216-142158-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.45,
+    # "submission-20201216-165851-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.51,
     # "submission-20201216-220908-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.37,
-    "submission-20201217-011328-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.61,
+    # "submission-20201217-011328-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.61,
+    # "submission-20201225-171648-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.41,
+    # "submission-20201226-011026-RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.46,
+    "submission-20201226-115507-RoBERTa-large-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 96.13,
+    "submission-20201226-182046-RoBERTa-large-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 96.08,
+    "submission-20201227-134848-RoBERTa-large-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.90,
+    "submission-20201227-202207-RoBERTa-large-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.94,
+    "submission-20201227-235217-RoBERTa-large-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 96.01,
+    "submission-20201228-000216-RoBERTa-large-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.90,
 }
 
 emotions = ["positive", "negative"]

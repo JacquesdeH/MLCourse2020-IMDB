@@ -8,7 +8,7 @@ import datetime
 from Instructor import Instructor
 
 
-RANDOM_SEED = 707
+RANDOM_SEED = 1200  # 2021 | 2351 | 1200
 
 # data related
 VALIDATION_PARTITION = 0.1
@@ -59,7 +59,7 @@ args.RAW_PATH = RAW_PATH
 args.CKPT_PATH = CKPT_PATH
 args.LOG_PATH = LOG_PATH
 
-args.DEVICE = torch.device('cuda:1' if args.cuda and torch.cuda.is_available() else 'cpu')
+args.DEVICE = torch.device('cuda:0' if args.cuda and torch.cuda.is_available() else 'cpu')
 torch.cuda.set_device(args.DEVICE)
 
 random.seed(RANDOM_SEED)
@@ -68,7 +68,7 @@ np.random.seed(RANDOM_SEED)
 if __name__ == '__main__':
     # timestamp = "20201225-171648"
     timestamp = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
-    model_name = timestamp + '-' + "RoBERTa-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch"
+    model_name = timestamp + '-' + "RoBERTa-large-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch"
     instructor = Instructor(model_name, args)
     instructor.trainModel(use_all=True)
     instructor.testModel(load_pretrain=True, epoch=args.epoch)
