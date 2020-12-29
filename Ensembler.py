@@ -30,6 +30,15 @@ submissions = {
     "submission-20201227-202207-RoBERTa-large-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.94,
     "submission-20201227-235217-RoBERTa-large-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 96.01,
     "submission-20201228-000216-RoBERTa-large-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.90,
+    "submission-20201228-134621-RoBERTa-large-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 96.15,
+    "submission-20201228-154949-RoBERTa-large-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.99,
+    "submission-20201228-182820-RoBERTa-large-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 96.02,
+    "submission-20201228-195811-RoBERTa-large-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.86,
+    "submission-20201228-200251-RoBERTa-large-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 96.20,
+    "submission-20201228-220723-RoBERTa-large-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 96.09,
+    "submission-20201229-010306-RoBERTa-large-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.99,
+    "submission-20201229-020822-RoBERTa-large-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 96.09,
+    "submission-20201229-023100-RoBERTa-large-Cumulbatch-Alldata-Warmup-Batchlarger-MoreEpoch": 95.90,
 }
 
 emotions = ["positive", "negative"]

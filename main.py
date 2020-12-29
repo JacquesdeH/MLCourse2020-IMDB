@@ -8,7 +8,7 @@ import datetime
 from Instructor import Instructor
 
 
-RANDOM_SEED = 1200  # 2021 | 2351 | 1200
+RANDOM_SEED = 230  # 1345 | 1547 | 1827 | 1956 | 2001 | 2148 | 102 | 207 | 230
 
 # data related
 VALIDATION_PARTITION = 0.1
